@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TempbearscriptbyJussi : MonoBehaviour
+public class TempBearScriptByJussi : MonoBehaviour
 {
     public float speed;
     Rigidbody2D rb;
@@ -15,6 +15,6 @@ public class TempbearscriptbyJussi : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        rb.AddForce(Vector2.right * speed);
+        rb.AddForce(Vector2.left * speed);
     }
 }

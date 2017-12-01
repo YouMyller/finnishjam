@@ -5,14 +5,19 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float speed;
+    public float punchForce;
     public bool standOnFlag;
+    float timer;
+    bool punchModeWife;
+    bool punchModeBear;
     Rigidbody2D rb;
-    GameObject enemy;
+    GameObject bear, wife;
     // Use this for initialization
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        enemy = GameObject.FindGameObjectWithTag("Enemy");
+        bear = GameObject.FindGameObjectWithTag("Bear");
+        wife = GameObject.FindGameObjectWithTag("Wife");
         rb.bodyType = RigidbodyType2D.Dynamic;
     }
 
@@ -20,6 +25,37 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         Move(Input.GetAxisRaw("Horizontal"));
+
+        if (punchModeWife == true)
+        {
+            rb.bodyType = RigidbodyType2D.Static;
+            wife.GetComponent<TempWifeScriptByJussi>().speed = 0;
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Vector2 dir = new Vector2(-5, 2).normalized;
+                wife.gameObject.GetComponent<Rigidbody2D>().AddForce(dir * punchForce);
+                punchModeWife = false;
+                wife.GetComponent<TempWifeScriptByJussi>().speed = 50;
+            }
+        }
+        if  (punchModeBear == true)
+        {
+            rb.bodyType = RigidbodyType2D.Static;
+            bear.GetComponent<TempBearScriptByJussi>().speed = 0;
+            if(Input.GetKeyDown(KeyCode.Space))
+            {
+                Vector2 dir = new Vector2(5, 2).normalized;
+                bear.gameObject.GetComponent<Rigidbody2D>().AddForce(dir * punchForce);
+                punchModeBear = false;
+                bear.GetComponent<TempBearScriptByJussi>().speed = 50;
+            }
+            
+        }
+        else
+        {
+            rb.bodyType = RigidbodyType2D.Dynamic;
+            
+        }
     }
     private void Move(float horizontalInput)
     {
@@ -27,13 +63,19 @@ public class PlayerController : MonoBehaviour
         moveVel.x = horizontalInput * speed;
         rb.velocity = moveVel;
     }
-
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void PunchForceAmount()
     {
-        if (collision.gameObject.tag == "Enemy")
+
+    }
+    void OnCollisionEnter2D(Collision2D coll)
+    {
+        if (coll.gameObject.tag == "Bear")
         {
-            rb.bodyType = RigidbodyType2D.Static;
-            enemy.GetComponent<TempBearScriptByJussi>().speed = 0;
+            punchModeBear = true;
+        }
+        if (coll.gameObject.tag == "Wife")
+        {
+            punchModeWife = true;
         }
     }
 }
