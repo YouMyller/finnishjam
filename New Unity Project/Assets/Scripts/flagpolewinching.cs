@@ -14,7 +14,7 @@ public class flagpolewinching : MonoBehaviour
 	void Start ()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        player = GetComponent<playercontroller>();
+        //player = GetComponent<playercontroller>();
 	}
 	
 	// Update is called once per frame
