@@ -7,35 +7,57 @@ public class flagpolewinching : MonoBehaviour
     [SerializeField]
     int flagNumber;
     int flagNumberMax;
-    float flagNumberTimer = 0.0f;
+    bool flagNumberTimer;
+    float flagNumberTimerAmount = 0.0f;
+
     GameObject player;
+    GameObject enemy;
 
-	// Use this for initialization
-	void Start ()
+    void Start()
     {
+        flagNumberTimer = true;
+
         player = GameObject.FindGameObjectWithTag("Player");
+        enemy = GameObject.FindGameObjectWithTag("Enemy");
         //player = GetComponent<playercontroller>();
-	}
-	
-	// Update is called once per frame
-	void Update ()
-    {
-        if (flagNumber > 0)
-        {
-            flagNumberTimer += Time.deltaTime;
+    }
 
-            if (flagNumberTimer > 1.0f)
+    void Update()
+    {
+        PressingADButtons();
+
+        FlagPoleTimer(false);
+    }
+
+    void FlagPoleTimer(bool enemyTouches)
+    {
+        if (flagNumberTimer = true && flagNumber > 0)
+        {
+            flagNumberTimerAmount += Time.deltaTime;
+
+            if (flagNumberTimerAmount > 1.0f)
             {
-                flagNumber -= 1;
-                flagNumberTimer -= 1.0f;
+                if (enemyTouches == true)
+                {
+                    flagNumber -= 5;
+                    flagNumberTimerAmount -= 1.0f;
+                }
+                else
+                {
+                    flagNumber -= 1;
+                    flagNumberTimerAmount -= 1.0f;
+                }
+            }
+
+            if (flagNumber <= 0)
+            {
+                flagNumber = 0;
             }
         }
+    }
 
-        /*if (flagNumberDecreaseTimer == true)
-        {
-            
-        }*/
-
+    void PressingADButtons()
+    {
         if (Input.GetKeyDown(KeyCode.A))
         {
             Debug.Log("Pressing A");
@@ -45,6 +67,16 @@ public class flagpolewinching : MonoBehaviour
         {
             Debug.Log("Pressing D");
             flagNumber += 10;
+        }
+    }
+
+    //When enemy is in the flagpole's collider
+    private void OnTriggerStay(Collider collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            FlagPoleTimer(true);
+            Debug.Log("Jou kosketti");
         }
     }
 }
