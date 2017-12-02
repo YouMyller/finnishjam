@@ -4,42 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-<<<<<<< HEAD
   - Bear
-=======
-<<<<<<< HEAD
-  - Bear
-  - Wife
-  - FlagPole
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 9de7922c453bfddf9b1fbb9db116b28bb2e6795d
-  - Bear
-  - Wife
-  - FlagPole
-<<<<<<< HEAD
-=======
-  - ArrowInvisi
->>>>>>> cb45986327c1fe7380b0d805aafa3e06326b67b6
-=======
-  - FlagPole
->>>>>>> JussiOksa
-=======
-  - FlagPole
-  - ArrowInvisi
-  - Wife
-  - Bear
-  - Sauna
-  - KarhuTrigger
-  - Karhu
-  - SnapObject
->>>>>>> juusobranch
->>>>>>> 9de7922c453bfddf9b1fbb9db116b28bb2e6795d
->>>>>>> fea2fa1b5a7469fffa34de55117c2da55703e650
->>>>>>> master
   layers:
   - Default
   - TransparentFX
