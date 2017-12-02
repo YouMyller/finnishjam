@@ -91,7 +91,7 @@ public class PlayerController : MonoBehaviour
         {
             transform.localEulerAngles = new Vector3(0, 360, 0);
         }
-        Debug.Log(horizontalInput);
+        //Debug.Log(horizontalInput);
 
     }
     private void PunchForceAmount()

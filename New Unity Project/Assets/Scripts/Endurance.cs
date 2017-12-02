@@ -28,8 +28,8 @@ public class Endurance : MonoBehaviour {
         enemy = true;
         flagExtra = false;
         saunaExtra = false;
-        endurance = 20;
-        maxEndurance = 4;
+        endurance = 100;
+        maxEndurance = 20;
 
         flagNumberTimer = true;
         //flagPole = GameObject.FindGameObjectWithTag("FlagPole");
@@ -43,67 +43,82 @@ public class Endurance : MonoBehaviour {
         {
             if (Input.GetKeyDown(KeyCode.A))
             {
-                Debug.Log("Sauna works you fucks");
-                endurance += .1f;
+                if (endurance <= 95)
+                {
+                    endurance += 1f;
+                }
             }
 
             if (Input.GetKeyDown(KeyCode.D))
             {
-                endurance += .1f;
+                if (endurance <= 95)
+                {
+                    endurance += 1f;
+                }
             }
         }
 
         FlagPoleTimer(false);
 
-        if (flag == true)
+        /*if (flag == true)
         {
             if (Input.GetKeyUp(KeyCode.UpArrow))
             {
+                Debug.Log("FlagExtra");
                 flagExtra = true;
             }
-        }
+        }*/
 
-        if (flagExtra == true && GetComponent<SpriteRenderer>().sprite != walkingSprite)
+        if (flag == true)      //&& GetComponent<SpriteRenderer>().sprite != walkingSprite
         {
+            //Debug.Log("Not quite");
             if (Input.GetKeyDown(KeyCode.A))
             {
-                endurance -= .1f;
-                flagNumber += 10;
+                //Debug.Log("Further");
+                if (endurance >= 20)
+                {
+                    endurance -= 1f;
+                    flagNumber += 10;
+                }
             }
 
             if (Input.GetKeyDown(KeyCode.D))
             {
-                endurance -= .1f;
-                flagNumber += 10;
+                //Debug.Log("Further");
+                if (endurance >= 5)
+                {
+                    endurance -= 1f;
+                    flagNumber += 10;
+                }
             }
         }
         if (enemy == true)
         {
             if (Input.GetKeyUp("space"))
             {
-                endurance -= 4;
+                endurance -= 20;
             }
         }
 
         float ratio = endurance / maxEndurance;
         currentEndurance.rectTransform.localScale = new Vector3(ratio, 1, 1);
 
-        if (endurance > 20)
+        if (endurance > 100)
         {
             //hit power = 30
             //flag speed = 30;
         }
-        if (endurance < 20)
+        if (endurance < 100)
         {
             //hit power = 20
             //flag speed = 20;
         }
-        if (endurance < 10)
+        if (endurance < 50)
         {
             //hit power = 10
             //flag speed = 10;
         }
-        if (endurance < 5)
+        if (endurance < 25)
         {
             //hit power = 5
             //flag speed = 5;
@@ -147,12 +162,10 @@ public class Endurance : MonoBehaviour {
         if (collision.gameObject.tag == "Sauna")
         {
             sauna = true;
-            Debug.Log("Works so far");
         }
         else
         {
             sauna = false;
-            Debug.Log("Sauna on false.");
         }
 
         if (collision.gameObject.tag == "FlagPole")
@@ -179,8 +192,8 @@ public class Endurance : MonoBehaviour {
     {
         if (collision.gameObject.tag == "FlagPole")
         {
-            flag = false;
-            flagExtra = false;
+            //flag = false;
+            //flagExtra = false;
         }
         if (collision.gameObject.tag == "Sauna")
         {
