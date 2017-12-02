@@ -13,161 +13,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 8
-    y: 51
-    width: 1904
-    height: 981
-=======
-    x: 200
-    y: 183
-    width: 400
-    height: 300
-  m_ShowMode: 0
-  m_Title: 
-  m_RootView: {fileID: 4}
-<<<<<<< HEAD
-  m_MinSize: {x: 950, y: 521}
-  m_MaxSize: {x: 10000, y: 10000}
-=======
-  m_MinSize: {x: 100, y: 122}
-  m_MaxSize: {x: 4000, y: 4022}
->>>>>>> f77d0bffe20294d3bd050b4f40da5a07472b4d44
---- !u!114 &2
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_PixelRect:
-    serializedVersion: 2
-=======
->>>>>>> JussiOksa
     x: 0
     y: 43
     width: 1920
     height: 1007
-<<<<<<< HEAD
->>>>>>> JussiOksa
-=======
-    x: 8
-    y: 51
-    width: 1904
-    height: 991
->>>>>>> JussiOksa
-=======
->>>>>>> JussiOksa
   m_ShowMode: 4
   m_Title: 
-  m_RootView: {fileID: 4}
-  m_MinSize: {x: 950, y: 521}
+  m_RootView: {fileID: 2}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    y: 621
-    width: 441
-    height: 310
-=======
-    y: 627
-    width: 441
-    height: 314
->>>>>>> JussiOksa
-=======
-    y: 638
-    width: 445
-    height: 319
->>>>>>> JussiOksa
-  m_MinSize: {x: 234, y: 271}
-  m_MaxSize: {x: 10004, y: 10021}
-<<<<<<< HEAD
-  m_ActualView: {fileID: 15}
-  m_Panes:
-  - {fileID: 15}
-=======
-<<<<<<< HEAD
-  m_ActualView: {fileID: 16}
-  m_Panes:
-  - {fileID: 16}
-=======
-  m_ActualView: {fileID: 19}
-  m_Panes:
-  - {fileID: 19}
->>>>>>> f77d0bffe20294d3bd050b4f40da5a07472b4d44
->>>>>>> cb45986327c1fe7380b0d805aafa3e06326b67b6
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &3
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 9}
-  - {fileID: 2}
-  m_Position:
-    serializedVersion: 2
-    x: 908
-    y: 0
-<<<<<<< HEAD
-    width: 441
-<<<<<<< HEAD
-    height: 931
-  m_MinSize: {x: 234, y: 471}
-  m_MaxSize: {x: 10004, y: 14021}
-  vertical: 1
-<<<<<<< HEAD
-  controlID: 77
-=======
-<<<<<<< HEAD
-  controlID: 88
->>>>>>> f77d0bffe20294d3bd050b4f40da5a07472b4d44
---- !u!114 &4
-=======
-  controlID: 31
---- !u!114 &7
->>>>>>> JussiOksa
-=======
-    height: 941
-  m_MinSize: {x: 234, y: 492}
-  m_MaxSize: {x: 10004, y: 14042}
-=======
-    width: 445
-    height: 957
-  m_MinSize: {x: 234, y: 471}
-  m_MaxSize: {x: 10004, y: 14021}
->>>>>>> JussiOksa
-  vertical: 1
-  controlID: 264
---- !u!114 &4
->>>>>>> JussiOksa
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -179,27 +34,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
+  - {fileID: 3}
   - {fileID: 5}
-  - {fileID: 6}
-  - {fileID: 7}
+  - {fileID: 4}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 1904
-<<<<<<< HEAD
-    height: 981
-=======
-    height: 991
->>>>>>> JussiOksa
-=======
     width: 1920
     height: 1007
->>>>>>> JussiOksa
   m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
---- !u!114 &5
+--- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -219,69 +65,8 @@ MonoBehaviour:
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-<<<<<<< HEAD
-  m_LastLoadedLayoutName: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
   m_LastLoadedLayoutName: 2 by 3
->>>>>>> JussiOksa
---- !u!114 &6
-=======
---- !u!114 &9
->>>>>>> JussiOksa
-=======
---- !u!114 &6
->>>>>>> JussiOksa
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 8}
-  - {fileID: 3}
-  - {fileID: 10}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 30
-<<<<<<< HEAD
-    width: 1904
-<<<<<<< HEAD
-    height: 931
-  m_MinSize: {x: 709, y: 471}
-  m_MaxSize: {x: 18006, y: 14021}
-  vertical: 0
-<<<<<<< HEAD
-  controlID: 21
-=======
-  controlID: 9
-<<<<<<< HEAD
->>>>>>> f77d0bffe20294d3bd050b4f40da5a07472b4d44
---- !u!114 &7
-=======
---- !u!114 &10
->>>>>>> JussiOksa
-=======
-    height: 941
-  m_MinSize: {x: 713, y: 492}
-  m_MaxSize: {x: 18008, y: 14042}
-=======
-    width: 1920
-    height: 957
-  m_MinSize: {x: 713, y: 471}
-  m_MaxSize: {x: 18008, y: 14021}
->>>>>>> JussiOksa
-  vertical: 0
-  controlID: 202
---- !u!114 &7
->>>>>>> JussiOksa
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -296,21 +81,12 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    y: 961
-=======
-    y: 971
->>>>>>> JussiOksa
-    width: 1904
-=======
     y: 987
     width: 1920
->>>>>>> JussiOksa
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &8
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -322,43 +98,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 11}
+  - {fileID: 6}
+  - {fileID: 9}
   - {fileID: 12}
   m_Position:
     serializedVersion: 2
     x: 0
+    y: 30
+    width: 1920
+    height: 957
+  m_MinSize: {x: 713, y: 492}
+  m_MaxSize: {x: 18008, y: 14042}
+  vertical: 0
+  controlID: 22953
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 7}
+  - {fileID: 8}
+  m_Position:
+    serializedVersion: 2
+    x: 0
     y: 0
-<<<<<<< HEAD
-    width: 900
-<<<<<<< HEAD
-    height: 931
-  m_MinSize: {x: 200, y: 321}
-  m_MaxSize: {x: 4002, y: 8021}
-  vertical: 1
-<<<<<<< HEAD
-  controlID: 22
-=======
-  controlID: 10
-<<<<<<< HEAD
->>>>>>> f77d0bffe20294d3bd050b4f40da5a07472b4d44
---- !u!114 &9
-=======
---- !u!114 &12
->>>>>>> JussiOksa
-=======
-    height: 941
-  m_MinSize: {x: 202, y: 442}
-  m_MaxSize: {x: 4002, y: 8042}
-=======
     width: 908
     height: 957
-  m_MinSize: {x: 202, y: 421}
-  m_MaxSize: {x: 4002, y: 8021}
->>>>>>> JussiOksa
+  m_MinSize: {x: 202, y: 342}
+  m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 203
---- !u!114 &9
->>>>>>> JussiOksa
+  controlID: 22978
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -374,48 +151,66 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 441
-    height: 621
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-<<<<<<< HEAD
-  m_ActualView: {fileID: 14}
+    width: 908
+    height: 338
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 14}
-=======
+  - {fileID: 15}
+  - {fileID: 16}
+  m_Selected: 1
+  m_LastSelected: 2
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 338
+    width: 908
+    height: 619
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 13}
-=======
-    width: 445
-    height: 638
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
-  m_ActualView: {fileID: 17}
->>>>>>> JussiOksa
-=======
-    width: 441
-    height: 627
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
-=======
-    width: 445
-    height: 638
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
->>>>>>> JussiOksa
-  m_ActualView: {fileID: 13}
->>>>>>> JussiOksa
   m_Panes:
-<<<<<<< HEAD
   - {fileID: 13}
-=======
-  - {fileID: 17}
->>>>>>> f77d0bffe20294d3bd050b4f40da5a07472b4d44
->>>>>>> cb45986327c1fe7380b0d805aafa3e06326b67b6
   m_Selected: 0
   m_LastSelected: 0
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 10}
+  - {fileID: 11}
+  m_Position:
+    serializedVersion: 2
+    x: 908
+    y: 0
+    width: 443
+    height: 957
+  m_MinSize: {x: 234, y: 492}
+  m_MaxSize: {x: 10004, y: 14042}
+  vertical: 1
+  controlID: 22954
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -430,48 +225,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1353
+    x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 563
-    height: 931
-<<<<<<< HEAD
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 15}
+    width: 443
+    height: 638
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 15}
-=======
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 14}
-=======
-    width: 567
-    height: 957
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 18}
->>>>>>> JussiOksa
-=======
-    width: 563
-    height: 941
-=======
-    width: 567
-    height: 957
->>>>>>> JussiOksa
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 14}
->>>>>>> JussiOksa
-  m_Panes:
-<<<<<<< HEAD
-  - {fileID: 14}
-=======
-  - {fileID: 18}
->>>>>>> f77d0bffe20294d3bd050b4f40da5a07472b4d44
->>>>>>> cb45986327c1fe7380b0d805aafa3e06326b67b6
+  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &11
@@ -489,47 +251,14 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 900
-    height: 478
-<<<<<<< HEAD
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+    y: 638
+    width: 443
+    height: 319
+  m_MinSize: {x: 234, y: 271}
+  m_MaxSize: {x: 10004, y: 10021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
-=======
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 17}
-=======
-    width: 908
-    height: 491
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 21}
->>>>>>> JussiOksa
-=======
-    width: 900
-    height: 483
-=======
-    width: 908
-    height: 491
->>>>>>> JussiOksa
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 17}
->>>>>>> JussiOksa
-  m_Panes:
-<<<<<<< HEAD
-  - {fileID: 17}
-=======
-  - {fileID: 21}
->>>>>>> f77d0bffe20294d3bd050b4f40da5a07472b4d44
->>>>>>> cb45986327c1fe7380b0d805aafa3e06326b67b6
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &12
@@ -546,50 +275,16 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    y: 478
-    width: 900
-    height: 453
-<<<<<<< HEAD
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 13}
-  m_Panes:
-  - {fileID: 17}
-  - {fileID: 13}
-  m_Selected: 1
-=======
-  m_MinSize: {x: 202, y: 221}
+    x: 1351
+    y: 0
+    width: 569
+    height: 957
+  m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 16}
-=======
-    y: 491
-    width: 908
-    height: 466
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 20}
->>>>>>> JussiOksa
-=======
-    y: 483
-    width: 900
-    height: 458
-=======
-    y: 491
-    width: 908
-    height: 466
->>>>>>> JussiOksa
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 16}
->>>>>>> JussiOksa
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 19}
   m_Selected: 0
->>>>>>> f77d0bffe20294d3bd050b4f40da5a07472b4d44
   m_LastSelected: 0
 --- !u!114 &13
 MonoBehaviour:
@@ -599,25 +294,228 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AutoRepaintOnSceneChange: 1
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_DepthBufferBits: 32
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 430
+    width: 906
+    height: 598
+  m_MaximizeOnPlay: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_TargetDisplay: 0
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    m_HBaseRangeMin: -453
+    m_HBaseRangeMax: 453
+    m_VBaseRangeMin: -290.5
+    m_VBaseRangeMax: 290.5
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoom: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 17
+      width: 906
+      height: 581
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 453, y: 290.5}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -453
+      y: -290.5
+      width: 906
+      height: 581
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_TargetTexture: {fileID: 0}
+  m_CurrentColorSpace: 0
+  m_LastWindowPixelSize: {x: 906, y: 598}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000100000100
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AutoRepaintOnSceneChange: 1
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_DepthBufferBits: 32
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 92
+    width: 906
+    height: 532
+  m_SceneLighting: 1
+  lastFramingTime: 7992.417908057457
+  m_2DMode: 1
+  m_isRotationLocked: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 155.96196, y: 195.36128, z: 0}
+    speed: 2
+    m_Value: {x: 155.96196, y: 195.36128, z: 0}
+  m_RenderMode: 0
+  m_ValidateTrueMetals: 0
+  m_SceneViewState:
+    showFog: 1
+    showMaterialUpdate: 0
+    showSkybox: 1
+    showFlares: 1
+    showImageEffects: 1
+  grid:
+    xGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+    yGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+    zGrid:
+      m_Target: 1
+      speed: 2
+      m_Value: 1
+  m_Rotation:
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
+  m_Size:
+    m_Target: 975.1577
+    speed: 2
+    m_Value: 975.1577
+  m_Ortho:
+    m_Target: 1
+    speed: 2
+    m_Value: 1
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AutoRepaintOnSceneChange: 1
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: 663490763026382308, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_DepthBufferBits: 0
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 92
+    width: 906
+    height: 317
+  m_ViewPositions:
+    m_KeySerializationHelper:
+    - {fileID: 1107423029949019616, guid: 25785f3fbde510c429ffffa12a6b99c5, type: 2}
+    - {fileID: 1107040328551517060, guid: 7e330885f4705b8439258a7ba8c63da9, type: 2}
+    m_ValueSerializationHelper:
+    - {x: 663.60004, y: 355.2}
+    - {x: 493.60004, y: 170.20001}
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: 7e330885f4705b8439258a7ba8c63da9,
+    type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: 1107040328551517060, guid: 7e330885f4705b8439258a7ba8c63da9,
+      type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_LiveLinkFollowTransitions: 0
+  m_MiniTool: 0
+  m_SerializedLocked: 0
+  m_CurrentEditor: 1
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_AutoRepaintOnSceneChange: 0
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Console
-    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000,
+    m_Text: Animation
+    m_Image: {fileID: -8166618308981325432, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 8
-    y: 578
-    width: 898
-    height: 432
---- !u!114 &14
+    x: 0
+    y: 92
+    width: 906
+    height: 532
+  m_AnimEditor: {fileID: 0}
+  m_Locked: 0
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -640,39 +538,14 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 910
-<<<<<<< HEAD
-    y: 100
-    width: 437
-<<<<<<< HEAD
-    height: 600
-=======
-    height: 606
->>>>>>> JussiOksa
-  m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
-    m_SelectedIDs: ca250000
-    m_LastClickedID: 9674
-    m_ExpandedIDs: c0fbffff00000000
-=======
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-<<<<<<< HEAD
-    m_ExpandedIDs: fccaffffa0ceffffc0fbffff00000000
-=======
-    m_ExpandedIDs: 34f3ffffc0fbffff00000000
->>>>>>> f77d0bffe20294d3bd050b4f40da5a07472b4d44
->>>>>>> cb45986327c1fe7380b0d805aafa3e06326b67b6
-=======
     y: 92
-    width: 441
+    width: 439
     height: 617
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 38b9ffff
-    m_LastClickedID: -18120
-    m_ExpandedIDs: c0fbffff00000000c625000020260000
->>>>>>> JussiOksa
+    m_SelectedIDs: bc260000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 86c2f8ffbac4f8ff3e4ffaff5afaffff00000000a64e0000f44e0000024f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -688,82 +561,14 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 0
-<<<<<<< HEAD
-      m_ClientGUIView: {fileID: 9}
-=======
-<<<<<<< HEAD
-      m_ClientGUIView: {fileID: 9}
-=======
-      m_ClientGUIView: {fileID: 12}
->>>>>>> f77d0bffe20294d3bd050b4f40da5a07472b4d44
->>>>>>> cb45986327c1fe7380b0d805aafa3e06326b67b6
+      m_ClientGUIView: {fileID: 10}
     m_SearchString: 
   m_ExpandedScenes:
-  - scene_test
+  - Movement Test
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
-<<<<<<< HEAD
---- !u!114 &14
-=======
-<<<<<<< HEAD
---- !u!114 &15
-=======
 --- !u!114 &18
->>>>>>> f77d0bffe20294d3bd050b4f40da5a07472b4d44
->>>>>>> cb45986327c1fe7380b0d805aafa3e06326b67b6
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AutoRepaintOnSceneChange: 0
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Inspector
-    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_DepthBufferBits: 0
-  m_Pos:
-    serializedVersion: 2
-<<<<<<< HEAD
-    x: 1351
-    y: 100
-    width: 561
-<<<<<<< HEAD
-    height: 910
-=======
-    height: 920
->>>>>>> JussiOksa
-=======
-    x: 1355
-    y: 92
-    width: 565
-    height: 936
->>>>>>> JussiOksa
-  m_ScrollPosition: {x: 0, y: 0}
-  m_InspectorMode: 0
-  m_PreviewResizer:
-    m_CachedPref: 100
-    m_ControlHash: -371814159
-    m_PrefName: Preview_InspectorPreview
-  m_PreviewWindow: {fileID: 0}
-<<<<<<< HEAD
---- !u!114 &15
-=======
-<<<<<<< HEAD
---- !u!114 &16
-=======
---- !u!114 &19
->>>>>>> f77d0bffe20294d3bd050b4f40da5a07472b4d44
->>>>>>> cb45986327c1fe7380b0d805aafa3e06326b67b6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -786,21 +591,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 910
-<<<<<<< HEAD
-<<<<<<< HEAD
-    y: 721
-    width: 437
-    height: 289
-=======
-    y: 727
-    width: 437
-    height: 293
->>>>>>> JussiOksa
-=======
     y: 730
-    width: 441
+    width: 439
     height: 298
->>>>>>> JussiOksa
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
@@ -811,41 +604,20 @@ MonoBehaviour:
     m_ScenePaths: []
     m_ShowAllHits: 0
     m_SearchArea: 0
-    m_Folders: []
+    m_Folders:
+    - Assets/Sprites
   m_ViewMode: 0
   m_StartGridSize: 64
-  m_LastFolders: []
+  m_LastFolders:
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\JuusoMyl1\Documents\lippupeli\finnishjam\New Unity Project
+  m_LastProjectPath: C:\Users\JussiMik1\Desktop\finnishjam\New Unity Project
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_SelectedIDs: f2240000
-    m_LastClickedID: 9458
-<<<<<<< HEAD
-    m_ExpandedIDs: 00000000f62400004e25000054250000
-=======
-<<<<<<< HEAD
-    m_ExpandedIDs: 00000000f42400004c25000052250000
-=======
-    m_ExpandedIDs: 00000000f82400005025000056250000
->>>>>>> JussiOksa
-<<<<<<< HEAD
-=======
-    m_SelectedIDs: 62250000
-    m_LastClickedID: 9570
-    m_ExpandedIDs: 00000000fa2400005225000058250000
->>>>>>> JussiOksa
-=======
->>>>>>> f77d0bffe20294d3bd050b4f40da5a07472b4d44
->>>>>>> cb45986327c1fe7380b0d805aafa3e06326b67b6
-=======
-    m_SelectedIDs: fc240000
-    m_LastClickedID: 9468
-    m_ExpandedIDs: 00000000fc2400005c2500006225000000ca9a3bffffff7f
->>>>>>> JussiOksa
+    m_SelectedIDs: 24260000
+    m_LastClickedID: 9764
+    m_ExpandedIDs: c89cf6ff00000000242600007c2600008226000084260000882600009026000094260000aa260000802700006c2b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -870,84 +642,26 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 524}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    m_ExpandedIDs: 00000000f62400004e25000054250000743b0000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: ArrowInvisi
-      m_OriginalName: ArrowInvisi
-=======
->>>>>>> cb45986327c1fe7380b0d805aafa3e06326b67b6
-<<<<<<< HEAD
-    m_ExpandedIDs: 00000000f42400004c25000052250000
+    m_ExpandedIDs: c89cf6ff00000000242600007c2600008226000084260000882600009026000094260000aa260000802700006c2b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
       m_OriginalName: 
-=======
-    m_ExpandedIDs: 00000000f82400005025000056250000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: Timer
-      m_OriginalName: Timer
->>>>>>> JussiOksa
-<<<<<<< HEAD
-=======
-    m_ExpandedIDs: 00000000fa2400005225000058250000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
->>>>>>> JussiOksa
-=======
->>>>>>> f77d0bffe20294d3bd050b4f40da5a07472b4d44
->>>>>>> cb45986327c1fe7380b0d805aafa3e06326b67b6
-=======
-    m_ExpandedIDs: 00000000fc2400005a2500005c250000622500007a25000000ca9a3bffffff7f
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: SweetSpotScript
-      m_OriginalName: SweetSpotScript
->>>>>>> JussiOksa
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-      m_UserData: 15226
-=======
->>>>>>> cb45986327c1fe7380b0d805aafa3e06326b67b6
-<<<<<<< HEAD
       m_UserData: 0
-=======
-      m_UserData: 9690
->>>>>>> JussiOksa
-<<<<<<< HEAD
-=======
-      m_UserData: 0
->>>>>>> JussiOksa
-=======
->>>>>>> f77d0bffe20294d3bd050b4f40da5a07472b4d44
->>>>>>> cb45986327c1fe7380b0d805aafa3e06326b67b6
-=======
-      m_UserData: 18332
->>>>>>> JussiOksa
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 2}
+      m_ClientGUIView: {fileID: 11}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -986,15 +700,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 115
-<<<<<<< HEAD
---- !u!114 &16
-=======
-<<<<<<< HEAD
---- !u!114 &17
-=======
---- !u!114 &20
->>>>>>> f77d0bffe20294d3bd050b4f40da5a07472b4d44
->>>>>>> cb45986327c1fe7380b0d805aafa3e06326b67b6
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -1002,259 +708,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AutoRepaintOnSceneChange: 1
-  m_MinSize: {x: 200, y: 200}
+  m_AutoRepaintOnSceneChange: 0
+  m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Game
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000,
+    m_Text: Inspector
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
-  m_DepthBufferBits: 32
+  m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 8
-<<<<<<< HEAD
-    y: 578
-    width: 898
-    height: 432
-=======
-    y: 583
-    width: 898
-    height: 437
->>>>>>> JussiOksa
-=======
-    x: 0
-    y: 583
-    width: 906
-    height: 445
->>>>>>> JussiOksa
-  m_MaximizeOnPlay: 0
-  m_Gizmos: 0
-  m_Stats: 0
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
-  m_TargetDisplay: 0
-  m_ZoomArea:
-    m_HRangeLocked: 0
-    m_VRangeLocked: 0
-<<<<<<< HEAD
-    m_HBaseRangeMin: -449
-    m_HBaseRangeMax: 449
-<<<<<<< HEAD
-    m_VBaseRangeMin: -207.5
-    m_VBaseRangeMax: 207.5
-=======
-    m_VBaseRangeMin: -210
-    m_VBaseRangeMax: 210
->>>>>>> JussiOksa
-=======
-    m_HBaseRangeMin: -453
-    m_HBaseRangeMax: 453
-    m_VBaseRangeMin: -214
-    m_VBaseRangeMax: 214
->>>>>>> JussiOksa
-    m_HAllowExceedBaseRangeMin: 1
-    m_HAllowExceedBaseRangeMax: 1
-    m_VAllowExceedBaseRangeMin: 1
-    m_VAllowExceedBaseRangeMax: 1
-    m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
-    m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
-    m_EnableSliderZoom: 0
-    m_UniformScale: 1
-    m_UpDirection: 1
-    m_DrawArea:
-      serializedVersion: 2
-      x: 0
-      y: 17
-<<<<<<< HEAD
-      width: 898
-<<<<<<< HEAD
-      height: 415
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 449, y: 207.5}
-=======
-      height: 420
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 449, y: 210}
->>>>>>> JussiOksa
-=======
-      width: 906
-      height: 428
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 453, y: 214}
->>>>>>> JussiOksa
-    m_MarginLeft: 0
-    m_MarginRight: 0
-    m_MarginTop: 0
-    m_MarginBottom: 0
-    m_LastShownAreaInsideMargins:
-      serializedVersion: 2
-<<<<<<< HEAD
-      x: -449
-<<<<<<< HEAD
-      y: -207.5
-      width: 898
-      height: 415
-=======
-      y: -210
-      width: 898
-      height: 420
->>>>>>> JussiOksa
-=======
-      x: -453
-      y: -214
-      width: 906
-      height: 428
->>>>>>> JussiOksa
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_TargetTexture: {fileID: 0}
-  m_CurrentColorSpace: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_LastWindowPixelSize: {x: 898, y: 432}
-=======
-  m_LastWindowPixelSize: {x: 898, y: 437}
->>>>>>> JussiOksa
-=======
-  m_LastWindowPixelSize: {x: 906, y: 445}
->>>>>>> JussiOksa
-  m_ClearInEditMode: 1
-  m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000000000100000100
-<<<<<<< HEAD
---- !u!114 &17
-=======
-<<<<<<< HEAD
---- !u!114 &18
-=======
---- !u!114 &21
->>>>>>> f77d0bffe20294d3bd050b4f40da5a07472b4d44
->>>>>>> cb45986327c1fe7380b0d805aafa3e06326b67b6
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AutoRepaintOnSceneChange: 1
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Scene
-    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_DepthBufferBits: 32
-  m_Pos:
-    serializedVersion: 2
-<<<<<<< HEAD
-    x: 8
-    y: 100
-    width: 898
-<<<<<<< HEAD
-    height: 457
-=======
-    height: 462
->>>>>>> JussiOksa
-=======
-    x: 0
+    x: 1353
     y: 92
-    width: 906
-    height: 470
->>>>>>> JussiOksa
-  m_SceneLighting: 1
-  lastFramingTime: 5344.570581976687
-  m_2DMode: 1
-  m_isRotationLocked: 0
-  m_AudioPlay: 0
-  m_Position:
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Target: {x: -1.5361749, y: 0, z: 0}
-    speed: 2
-    m_Value: {x: -1.5361749, y: 0, z: 0}
-=======
-<<<<<<< HEAD
-    m_Target: {x: 1.2519393, y: -0.44595405, z: 0}
-    speed: 2
-    m_Value: {x: 1.2519393, y: -0.44595405, z: 0}
-=======
-    m_Target: {x: 0.29233626, y: 0.5680172, z: 0}
-    speed: 2
-    m_Value: {x: 0.29233626, y: 0.5680172, z: 0}
->>>>>>> f77d0bffe20294d3bd050b4f40da5a07472b4d44
->>>>>>> cb45986327c1fe7380b0d805aafa3e06326b67b6
-=======
-    m_Target: {x: -137.68039, y: -16.165125, z: 0}
-    speed: 2
-    m_Value: {x: -137.68039, y: -16.165125, z: 0}
->>>>>>> JussiOksa
-  m_RenderMode: 0
-  m_ValidateTrueMetals: 0
-  m_SceneViewState:
-    showFog: 1
-    showMaterialUpdate: 0
-    showSkybox: 1
-    showFlares: 1
-    showImageEffects: 1
-  grid:
-    xGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-    yGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-    zGrid:
-      m_Target: 1
-      speed: 2
-      m_Value: 1
-  m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
-    speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
-  m_Size:
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Target: 29.4558
-    speed: 2
-    m_Value: 29.4558
-=======
-<<<<<<< HEAD
-    m_Target: 99.51002
-    speed: 2
-    m_Value: 99.51002
-=======
-    m_Target: 11.414033
-    speed: 2
-    m_Value: 11.414033
->>>>>>> f77d0bffe20294d3bd050b4f40da5a07472b4d44
->>>>>>> cb45986327c1fe7380b0d805aafa3e06326b67b6
-=======
-    m_Target: 59.67307
-    speed: 2
-    m_Value: 59.67307
->>>>>>> JussiOksa
-  m_Ortho:
-    m_Target: 1
-    speed: 2
-    m_Value: 1
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
-  m_LastSceneViewOrtho: 0
-  m_ReplacementShader: {fileID: 0}
-  m_ReplacementString: 
-  m_LastLockedObject: {fileID: 0}
-  m_ViewIsLockedToObject: 0
+    width: 567
+    height: 936
+  m_ScrollPosition: {x: 0, y: 0}
+  m_InspectorMode: 0
+  m_PreviewResizer:
+    m_CachedPref: 458
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_PreviewWindow: {fileID: 0}
