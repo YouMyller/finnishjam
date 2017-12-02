@@ -7,7 +7,7 @@ public class Endurance : MonoBehaviour {
 
     public float endurance;
     public float maxEndurance;
-    private bool sauna, saunaExtra, flag, flagExtra, enemy, snap;
+    public bool sauna, saunaExtra, flag, flagExtra, enemy, snap;
     public GameObject buttonTutorial;
     public Sprite walkingSprite;
 
@@ -15,6 +15,9 @@ public class Endurance : MonoBehaviour {
     int flagNumber;
     float flagNumberTimerAmount = 0.0f;
     bool flagNumberTimer;
+
+    public float flagDrop;
+    public float flagPower;
 
     public Image currentEndurance;
 
@@ -30,6 +33,9 @@ public class Endurance : MonoBehaviour {
         saunaExtra = false;
         endurance = 100;
         maxEndurance = 20;
+
+        flagDrop = 1;
+        flagPower = 1;
 
         flagNumberTimer = true;
         //flagPole = GameObject.FindGameObjectWithTag("FlagPole");
@@ -105,26 +111,31 @@ public class Endurance : MonoBehaviour {
 
         if (endurance > 100)
         {
+            flagPower = 20;
             //hit power = 30
             //flag speed = 30;
         }
         if (endurance < 100)
         {
+            flagPower = 12;
             //hit power = 20
             //flag speed = 20;
         }
         if (endurance < 50)
         {
+            flagPower = 8;
             //hit power = 10
             //flag speed = 10;
         }
         if (endurance < 25)
         {
+            flagPower = 5;
             //hit power = 5
             //flag speed = 5;
         }
         if (endurance <= 0)
         {
+            flagPower = 0;
             //hit power = 0
             //flag speed = 0;
         }
@@ -140,11 +151,13 @@ public class Endurance : MonoBehaviour {
             {
                 if (enemyTouches == true)
                 {
+                    flagDrop = 2;
                     flagNumber -= 5;
                     flagNumberTimerAmount -= 1.0f;
                 }
                 else
                 {
+                    flagDrop = 1;
                     flagNumber -= 1;
                     flagNumberTimerAmount -= 1.0f;
                 }
@@ -192,7 +205,7 @@ public class Endurance : MonoBehaviour {
     {
         if (collision.gameObject.tag == "FlagPole")
         {
-            //flag = false;
+            flag = false;
             //flagExtra = false;
         }
         if (collision.gameObject.tag == "Sauna")

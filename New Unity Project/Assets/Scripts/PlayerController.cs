@@ -33,6 +33,9 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         Move(Input.GetAxisRaw("Horizontal"));
+        Vector3 pos = transform.position;
+        pos.x = Mathf.Clamp(pos.x, -15.2f, 15.2f);
+        transform.position = pos;
         if (punchModeWife == true)
         {
             rb.bodyType = RigidbodyType2D.Static;
@@ -73,7 +76,6 @@ public class PlayerController : MonoBehaviour
         else
         {
             rb.bodyType = RigidbodyType2D.Dynamic;
-            
         }
         
     }

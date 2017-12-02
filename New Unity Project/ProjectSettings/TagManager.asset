@@ -12,6 +12,7 @@ TagManager:
   - ArrowInvisi
   - SnapObject
   - VaimoTrigger
+  - LippuTrigger
   layers:
   - Default
   - TransparentFX
