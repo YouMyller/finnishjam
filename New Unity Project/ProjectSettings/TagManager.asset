@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
 <<<<<<< HEAD
+  - Bear
+  - Wife
+  - FlagPole
+=======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30,6 +35,7 @@ TagManager:
   - SnapObject
 >>>>>>> juusobranch
 >>>>>>> 9de7922c453bfddf9b1fbb9db116b28bb2e6795d
+>>>>>>> fea2fa1b5a7469fffa34de55117c2da55703e650
   layers:
   - Default
   - TransparentFX
