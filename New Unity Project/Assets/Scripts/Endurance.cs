@@ -151,7 +151,7 @@ public class Endurance : MonoBehaviour {
             {
                 if (enemyTouches == true)
                 {
-                    flagDrop = 2;
+                    flagDrop = 10;
                     flagNumber -= 5;
                     flagNumberTimerAmount -= 1.0f;
                 }

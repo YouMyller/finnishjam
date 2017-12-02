@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     public float speed;
     public float punchForce;
     public float distFromSweetSpot;
+    public float endurance;
     public bool standOnFlag;
     float timer;
     bool punchModeWife;
@@ -24,6 +25,7 @@ public class PlayerController : MonoBehaviour
         bear = GameObject.FindGameObjectWithTag("Bear");
         wife = GameObject.FindGameObjectWithTag("Wife");
         anim = GetComponent<Animator>();
+        endurance = GetComponent<Endurance>().endurance;
         rb.bodyType = RigidbodyType2D.Dynamic;
         golfBarSlider.SetActive(false);
         
@@ -33,9 +35,6 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         Move(Input.GetAxisRaw("Horizontal"));
-        Vector3 pos = transform.position;
-        pos.x = Mathf.Clamp(pos.x, -15.2f, 15.2f);
-        transform.position = pos;
         if (punchModeWife == true)
         {
             rb.bodyType = RigidbodyType2D.Static;
@@ -99,7 +98,8 @@ public class PlayerController : MonoBehaviour
     private void PunchForceAmount()
     {
         distFromSweetSpot = golfSlider.GetComponent<GolfSlider>().distFromSweetSpot;
-        punchForce = (punchForce / distFromSweetSpot) * 25;
+        endurance = GetComponent<Endurance>().endurance;
+        punchForce = punchForce / (distFromSweetSpot * 10) * endurance;
     }
     void OnCollisionEnter2D(Collision2D coll)
     {
