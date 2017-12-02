@@ -4,13 +4,14 @@
 TagManager:
   serializedVersion: 2
   tags:
-<<<<<<< HEAD
-  - Bear
-  - Wife
-=======
   - FlagPole
   - ArrowInvisi
->>>>>>> cb45986327c1fe7380b0d805aafa3e06326b67b6
+  - Wife
+  - Bear
+  - Sauna
+  - KarhuTrigger
+  - Karhu
+  - SnapObject
   layers:
   - Default
   - TransparentFX
