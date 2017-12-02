@@ -5,6 +5,7 @@ using UnityEngine;
 public class TempWifeScriptByJussi : MonoBehaviour
 {
     public float speed;
+    public float defaultSpeed;
     Rigidbody2D rb;
     // Use this for initialization
     void Start()
