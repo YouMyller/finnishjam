@@ -2,19 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TempBearScriptByJussi : MonoBehaviour
+public class SweetSpotScript : MonoBehaviour
 {
-    public float speed;
-    Rigidbody2D rb;
+
     // Use this for initialization
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
-        rb.AddForce(Vector2.left * speed);
+
+    }
+    private void OnEnable()
+    {
+      transform.localPosition = new Vector3(Random.Range(-49f, 49f), 0, 0);
     }
 }
