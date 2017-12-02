@@ -1,18 +1,13 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 65c81faf10ca5f047a39a4ca352d2dda
-timeCreated: 1512222220
-=======
-guid: 9c3a06b1bf2160d49bc3c9d477497c1b
-timeCreated: 1512207326
->>>>>>> 9de7922c453bfddf9b1fbb9db116b28bb2e6795d
+guid: 1b02d1dc436fe8b428578fa886f6c34d
+timeCreated: 1512216092
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName: {}
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -32,22 +27,22 @@ TextureImporter:
   textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
-    aniso: -1
-    mipBias: -1
-    wrapMode: 1
+    filterMode: 0
+    aniso: 16
+    mipBias: 0
+    wrapMode: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 3
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 4
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
@@ -57,7 +52,7 @@ TextureImporter:
   platformSettings:
   - buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -66,7 +61,10 @@ TextureImporter:
   spriteSheet:
     serializedVersion: 2
     sprites: []
-    outline: []
+    outline:
+    - - {x: 0, y: 2}
+      - {x: -1.7320508, y: -1.0000001}
+      - {x: 1.7320509, y: -0.9999998}
   spritePackingTag: 
   userData: 
   assetBundleName: 
