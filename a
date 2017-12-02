@@ -1,0 +1,133 @@
+[1mdiff --cc New Unity Project/Assets/Scripts/DistanceText.cs.meta[m
+[1mindex 0f6e1e7,5ee7ccf..0000000[m
+[1m--- a/New Unity Project/Assets/Scripts/DistanceText.cs.meta[m
+[1m+++ b/New Unity Project/Assets/Scripts/DistanceText.cs.meta[m
+[36m@@@ -1,6 -1,6 +1,11 @@@[m
+  fileFormatVersion: 2[m
+[32m++<<<<<<< Updated upstream:New Unity Project/Assets/Scripts/DistanceText.cs.meta[m
+[32m +guid: cdc0d685c06d23e4aaff02de97c8842e[m
+[32m +timeCreated: 1512159209[m
+[32m++=======[m
+[32m+ guid: 4040da297bb28b94d87c85af800cc2c4[m
+[32m+ timeCreated: 1512159606[m
+[32m++>>>>>>> Stashed changes:New Unity Project/Assets/Scripts/TemporaryScripts/TempBearScriptByJussi.cs.meta[m
+  licenseType: Pro[m
+  MonoImporter:[m
+    serializedVersion: 2[m
+[1mdiff --cc New Unity Project/Assets/Scripts/PlayerHunt.cs.meta[m
+[1mindex e9d58e7,c9d19ca..0000000[m
+[1m--- a/New Unity Project/Assets/Scripts/PlayerHunt.cs.meta[m
+[1m+++ b/New Unity Project/Assets/Scripts/PlayerHunt.cs.meta[m
+[36m@@@ -1,6 -1,6 +1,11 @@@[m
+  fileFormatVersion: 2[m
+[32m++<<<<<<< Updated upstream:New Unity Project/Assets/Scripts/PlayerHunt.cs.meta[m
+[32m +guid: 2f5e6a75a237e9e48858ed8bda0f7b82[m
+[32m +timeCreated: 1512152438[m
+[32m++=======[m
+[32m+ guid: cce165f9925386b44a62437b2bed28a9[m
+[32m+ timeCreated: 1512167250[m
+[32m++>>>>>>> Stashed changes:New Unity Project/Assets/Scripts/TemporaryScripts/TempWifeScriptByJussi.cs.meta[m
+  licenseType: Pro[m
+  MonoImporter:[m
+    serializedVersion: 2[m
+[1mdiff --cc New Unity Project/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb[m
+[1mindex 13114be,c13d84b..0000000[m
+Binary files differ
+[1mdiff --cc New Unity Project/Library/assetDatabase3[m
+[1mindex f35fbc4,711aa07..0000000[m
+Binary files differ
+[1mdiff --cc New Unity Project/Library/metadata/00/00000000000000002000000000000000[m
+[1mindex b76c39a,0037d2e..0000000[m
+Binary files differ
+[1mdiff --cc New Unity Project/Library/metadata/00/00000000000000003000000000000000[m
+[1mindex 4cba839,84c9650..0000000[m
+Binary files differ
+[1mdiff --cc New Unity Project/Library/metadata/00/00000000000000004000000000000000[m
+[1mindex b2c3524,8511d45..0000000[m
+Binary files differ
+[1mdiff --cc New Unity Project/Library/metadata/00/00000000000000004100000000000000[m
+[1mindex f01e677,d0fb6b8..0000000[m
+Binary files differ
+[1mdiff --cc New Unity Project/Library/metadata/00/00000000000000005000000000000000[m
+[1mindex 1018256,1d92236..0000000[m
+Binary files differ
+[1mdiff --cc New Unity Project/Library/metadata/00/00000000000000005100000000000000[m
+[1mindex 01462e8,52309cc..0000000[m
+Binary files differ
+[1mdiff --cc New Unity Project/Library/metadata/00/00000000000000006000000000000000[m
+[1mindex 12efe38,9e63567..0000000[m
+Binary files differ
+[1mdiff --cc New Unity Project/Library/metadata/00/00000000000000006100000000000000[m
+[1mindex 2a60490,19d1d47..0000000[m
+Binary files differ
+[1mdiff --cc New Unity Project/Library/metadata/00/00000000000000007000000000000000[m
+[1mindex e05030c,e6ce4c2..0000000[m
+Binary files differ
+[1mdiff --cc New Unity Project/Library/metadata/00/00000000000000007100000000000000[m
+[1mindex 58ef007,07ed626..0000000[m
+Binary files differ
+[1mdiff --cc New Unity Project/Library/metadata/00/00000000000000008000000000000000[m
+[1mindex 3ee54c6,91c9f89..0000000[m
+Binary files differ
+[1mdiff --cc New Unity Project/Library/metadata/00/00000000000000009000000000000000[m
+[1mindex 18fd2b8,85bec3f..0000000[m
+Binary files differ
+[1mdiff --cc New Unity Project/Library/metadata/00/0000000000000000a000000000000000[m
+[1mindex a68df3a,d2daede..0000000[m
+Binary files differ
+[1mdiff --cc New Unity Project/Library/metadata/00/0000000000000000a100000000000000[m
+[1mindex c1ca528,49b10f3..0000000[m
+Binary files differ
+[1mdiff --cc New Unity Project/Library/metadata/00/0000000000000000b000000000000000[m
+[1mindex 73fd122,10f46b0..0000000[m
+Binary files differ
+[1mdiff --cc New Unity Project/Library/metadata/00/0000000000000000c000000000000000[m
+[1mindex 6435bcd,77a9197..0000000[m
+Binary files differ
+[1mdiff --cc New Unity Project/Library/metadata/18/18b4dbf8a0b54ea4adf46fb7f4d71dd0[m
+[1mindex ead2f78,12e74d0..0000000[m
+Binary files differ
+[1mdiff --cc New Unity Project/Library/metadata/24/2403d1f95ea54028853403e595bc9274[m
+[1mindex e6ee6db,8149226..0000000[m
+Binary files differ
+[1mdiff --cc New Unity Project/Library/metadata/51/51288a4fc4384861a5b1f9dd49b3da26[m
+[1mindex 40e6b99,f2b2206..0000000[m
+Binary files differ
+[1mdiff --cc New Unity Project/Library/metadata/52/52a206b72a8f4f749c28d8b18b42dd19[m
+[1mindex 034a56d,4392c8a..0000000[m
+Binary files differ
+[1mdiff --cc New Unity Project/Library/metadata/67/67e9dad5654047ebbe623cce9dbf7b38[m
+[1mindex 59c3467,1813bd7..0000000[m
+Binary files differ
+[1mdiff --cc New Unity Project/Library/metadata/bb/bb6b4101ad2c42ec99f064a70c354e3c[m
+[1mindex de816e8,37a4f6a..0000000[m
+Binary files differ
+[1mdiff --cc New Unity Project/Library/metadata/f4/f48df919adea4fa095a7407e773e5aa4[m
+[1mindex 41c5b2f,63699ee..0000000[m
+Binary files differ
+[1mdiff --git a/New Unity Project/Library/shadercompiler-UnityShaderCompiler.exe0.log b/New Unity Project/Library/shadercompiler-UnityShaderCompiler.exe0.log[m
+[1mindex 9cbc4ac..c64a4a0 100644[m
+[1m--- a/New Unity Project/Library/shadercompiler-UnityShaderCompiler.exe0.log[m	
+[1m+++ b/New Unity Project/Library/shadercompiler-UnityShaderCompiler.exe0.log[m	
+[36m@@ -1,21 +1,2 @@[m
+ Base path: C:/Program Files/Unity5.6/Editor/Data[m
+ Cmd: initializeCompiler[m
+[31m-<<<<<<< HEAD[m
+[31m-<<<<<<< HEAD[m
+[31m-=======[m
+[31m-<<<<<<< HEAD[m
+[31m-=======[m
+[31m->>>>>>> f77d0bffe20294d3bd050b4f40da5a07472b4d44[m
+[31m-Cmd: compileSnippet[m
+[31m-  api=4 type=0 insize=1555 outsize=834 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1[m
+[31m-Cmd: compileSnippet[m
+[31m-  api=4 type=1 insize=1555 outsize=666 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1[m
+[31m-<<<<<<< HEAD[m
+[31m-=======[m
+[31m->>>>>>> JussiOksa[m
+[31m-<<<<<<< HEAD[m
+[31m-=======[m
+[31m->>>>>>> JussiOksa[m
+[31m-=======[m
+[31m->>>>>>> f77d0bffe20294d3bd050b4f40da5a07472b4d44[m
+[31m->>>>>>> cb45986327c1fe7380b0d805aafa3e06326b67b6[m
