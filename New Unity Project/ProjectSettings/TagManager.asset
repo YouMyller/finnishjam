@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Bear
   - Wife
 <<<<<<< HEAD
@@ -15,6 +16,16 @@ TagManager:
 =======
   - FlagPole
 >>>>>>> JussiOksa
+=======
+  - FlagPole
+  - ArrowInvisi
+  - Wife
+  - Bear
+  - Sauna
+  - KarhuTrigger
+  - Karhu
+  - SnapObject
+>>>>>>> juusobranch
   layers:
   - Default
   - TransparentFX
