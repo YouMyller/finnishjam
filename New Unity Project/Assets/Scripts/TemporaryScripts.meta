@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 688b2289782b5ac45ba9711b5917aed6
 folderAsset: yes
 timeCreated: 1512163726
+=======
+guid: a3fd1537c137dfa43b2098ddc98121c8
+folderAsset: yes
+timeCreated: 1512209766
+>>>>>>> JussiOksa
 licenseType: Pro
 DefaultImporter:
   userData: 

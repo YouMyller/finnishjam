@@ -7,10 +7,14 @@ TagManager:
 <<<<<<< HEAD
   - Bear
   - Wife
+<<<<<<< HEAD
 =======
   - FlagPole
   - ArrowInvisi
 >>>>>>> cb45986327c1fe7380b0d805aafa3e06326b67b6
+=======
+  - FlagPole
+>>>>>>> JussiOksa
   layers:
   - Default
   - TransparentFX

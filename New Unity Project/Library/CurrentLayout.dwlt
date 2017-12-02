@@ -15,6 +15,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 8
     y: 51
     width: 1904
@@ -47,10 +48,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
+=======
+>>>>>>> JussiOksa
     x: 0
     y: 43
     width: 1920
     height: 1007
+<<<<<<< HEAD
 >>>>>>> JussiOksa
 =======
     x: 8
@@ -58,10 +62,12 @@ MonoBehaviour:
     width: 1904
     height: 991
 >>>>>>> JussiOksa
+=======
+>>>>>>> JussiOksa
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 4}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -79,6 +85,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 621
     width: 441
     height: 310
@@ -86,6 +93,11 @@ MonoBehaviour:
     y: 627
     width: 441
     height: 314
+>>>>>>> JussiOksa
+=======
+    y: 638
+    width: 445
+    height: 319
 >>>>>>> JussiOksa
   m_MinSize: {x: 234, y: 271}
   m_MaxSize: {x: 10004, y: 10021}
@@ -122,8 +134,9 @@ MonoBehaviour:
   - {fileID: 2}
   m_Position:
     serializedVersion: 2
-    x: 900
+    x: 908
     y: 0
+<<<<<<< HEAD
     width: 441
 <<<<<<< HEAD
     height: 931
@@ -145,8 +158,14 @@ MonoBehaviour:
     height: 941
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
+=======
+    width: 445
+    height: 957
+  m_MinSize: {x: 234, y: 471}
+  m_MaxSize: {x: 10004, y: 14021}
+>>>>>>> JussiOksa
   vertical: 1
-  controlID: 102
+  controlID: 264
 --- !u!114 &4
 >>>>>>> JussiOksa
 MonoBehaviour:
@@ -167,11 +186,16 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1904
 <<<<<<< HEAD
     height: 981
 =======
     height: 991
+>>>>>>> JussiOksa
+=======
+    width: 1920
+    height: 1007
 >>>>>>> JussiOksa
   m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -191,13 +215,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1904
+    width: 1920
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
+<<<<<<< HEAD
   m_LastLoadedLayoutName: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+  m_LastLoadedLayoutName: 2 by 3
+>>>>>>> JussiOksa
 --- !u!114 &6
 =======
 --- !u!114 &9
@@ -223,6 +251,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 1904
 <<<<<<< HEAD
     height: 931
@@ -243,8 +272,14 @@ MonoBehaviour:
     height: 941
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
+=======
+    width: 1920
+    height: 957
+  m_MinSize: {x: 713, y: 471}
+  m_MaxSize: {x: 18008, y: 14021}
+>>>>>>> JussiOksa
   vertical: 0
-  controlID: 57
+  controlID: 202
 --- !u!114 &7
 >>>>>>> JussiOksa
 MonoBehaviour:
@@ -262,11 +297,16 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 961
 =======
     y: 971
 >>>>>>> JussiOksa
     width: 1904
+=======
+    y: 987
+    width: 1920
+>>>>>>> JussiOksa
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -288,6 +328,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 900
 <<<<<<< HEAD
     height: 931
@@ -308,8 +349,14 @@ MonoBehaviour:
     height: 941
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
+=======
+    width: 908
+    height: 957
+  m_MinSize: {x: 202, y: 421}
+  m_MaxSize: {x: 4002, y: 8021}
+>>>>>>> JussiOksa
   vertical: 1
-  controlID: 58
+  controlID: 203
 --- !u!114 &9
 >>>>>>> JussiOksa
 MonoBehaviour:
@@ -327,6 +374,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     width: 441
@@ -351,6 +399,12 @@ MonoBehaviour:
     height: 627
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
+=======
+    width: 445
+    height: 638
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> JussiOksa
   m_ActualView: {fileID: 13}
 >>>>>>> JussiOksa
   m_Panes:
@@ -376,8 +430,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1341
+    x: 1353
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     width: 563
@@ -402,6 +457,10 @@ MonoBehaviour:
 =======
     width: 563
     height: 941
+=======
+    width: 567
+    height: 957
+>>>>>>> JussiOksa
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
@@ -433,6 +492,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 900
     height: 478
 <<<<<<< HEAD
@@ -455,6 +515,10 @@ MonoBehaviour:
 =======
     width: 900
     height: 483
+=======
+    width: 908
+    height: 491
+>>>>>>> JussiOksa
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
@@ -485,6 +549,7 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 478
     width: 900
     height: 453
@@ -512,6 +577,11 @@ MonoBehaviour:
     y: 483
     width: 900
     height: 458
+=======
+    y: 491
+    width: 908
+    height: 466
+>>>>>>> JussiOksa
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
@@ -570,6 +640,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 910
+<<<<<<< HEAD
     y: 100
     width: 437
 <<<<<<< HEAD
@@ -592,6 +663,16 @@ MonoBehaviour:
     m_ExpandedIDs: 34f3ffffc0fbffff00000000
 >>>>>>> f77d0bffe20294d3bd050b4f40da5a07472b4d44
 >>>>>>> cb45986327c1fe7380b0d805aafa3e06326b67b6
+=======
+    y: 92
+    width: 441
+    height: 617
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 38b9ffff
+    m_LastClickedID: -18120
+    m_ExpandedIDs: c0fbffff00000000c625000020260000
+>>>>>>> JussiOksa
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -652,6 +733,7 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1351
     y: 100
     width: 561
@@ -660,10 +742,16 @@ MonoBehaviour:
 =======
     height: 920
 >>>>>>> JussiOksa
+=======
+    x: 1355
+    y: 92
+    width: 565
+    height: 936
+>>>>>>> JussiOksa
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
-    m_CachedPref: 1
+    m_CachedPref: 100
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
@@ -699,6 +787,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 910
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 721
     width: 437
     height: 289
@@ -706,6 +795,11 @@ MonoBehaviour:
     y: 727
     width: 437
     height: 293
+>>>>>>> JussiOksa
+=======
+    y: 730
+    width: 441
+    height: 298
 >>>>>>> JussiOksa
   m_SearchFilter:
     m_NameFilter: 
@@ -717,8 +811,7 @@ MonoBehaviour:
     m_ScenePaths: []
     m_ShowAllHits: 0
     m_SearchArea: 0
-    m_Folders:
-    - Assets/Scripts
+    m_Folders: []
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
@@ -727,6 +820,7 @@ MonoBehaviour:
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_SelectedIDs: f2240000
     m_LastClickedID: 9458
@@ -747,6 +841,11 @@ MonoBehaviour:
 =======
 >>>>>>> f77d0bffe20294d3bd050b4f40da5a07472b4d44
 >>>>>>> cb45986327c1fe7380b0d805aafa3e06326b67b6
+=======
+    m_SelectedIDs: fc240000
+    m_LastClickedID: 9468
+    m_ExpandedIDs: 00000000fc2400005c2500006225000000ca9a3bffffff7f
+>>>>>>> JussiOksa
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -774,6 +873,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -808,12 +908,20 @@ MonoBehaviour:
 =======
 >>>>>>> f77d0bffe20294d3bd050b4f40da5a07472b4d44
 >>>>>>> cb45986327c1fe7380b0d805aafa3e06326b67b6
+=======
+    m_ExpandedIDs: 00000000fc2400005a2500005c250000622500007a25000000ca9a3bffffff7f
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: SweetSpotScript
+      m_OriginalName: SweetSpotScript
+>>>>>>> JussiOksa
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -832,6 +940,9 @@ MonoBehaviour:
 =======
 >>>>>>> f77d0bffe20294d3bd050b4f40da5a07472b4d44
 >>>>>>> cb45986327c1fe7380b0d805aafa3e06326b67b6
+=======
+      m_UserData: 18332
+>>>>>>> JussiOksa
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -905,6 +1016,7 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 8
 <<<<<<< HEAD
     y: 578
@@ -915,6 +1027,12 @@ MonoBehaviour:
     width: 898
     height: 437
 >>>>>>> JussiOksa
+=======
+    x: 0
+    y: 583
+    width: 906
+    height: 445
+>>>>>>> JussiOksa
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
@@ -923,6 +1041,7 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -449
     m_HBaseRangeMax: 449
 <<<<<<< HEAD
@@ -931,6 +1050,12 @@ MonoBehaviour:
 =======
     m_VBaseRangeMin: -210
     m_VBaseRangeMax: 210
+>>>>>>> JussiOksa
+=======
+    m_HBaseRangeMin: -453
+    m_HBaseRangeMax: 453
+    m_VBaseRangeMin: -214
+    m_VBaseRangeMax: 214
 >>>>>>> JussiOksa
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
@@ -948,6 +1073,7 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
+<<<<<<< HEAD
       width: 898
 <<<<<<< HEAD
       height: 415
@@ -958,12 +1084,19 @@ MonoBehaviour:
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 449, y: 210}
 >>>>>>> JussiOksa
+=======
+      width: 906
+      height: 428
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 453, y: 214}
+>>>>>>> JussiOksa
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -449
 <<<<<<< HEAD
       y: -207.5
@@ -974,14 +1107,24 @@ MonoBehaviour:
       width: 898
       height: 420
 >>>>>>> JussiOksa
+=======
+      x: -453
+      y: -214
+      width: 906
+      height: 428
+>>>>>>> JussiOksa
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastWindowPixelSize: {x: 898, y: 432}
 =======
   m_LastWindowPixelSize: {x: 898, y: 437}
+>>>>>>> JussiOksa
+=======
+  m_LastWindowPixelSize: {x: 906, y: 445}
 >>>>>>> JussiOksa
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -1016,6 +1159,7 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 8
     y: 100
     width: 898
@@ -1024,12 +1168,19 @@ MonoBehaviour:
 =======
     height: 462
 >>>>>>> JussiOksa
+=======
+    x: 0
+    y: 92
+    width: 906
+    height: 470
+>>>>>>> JussiOksa
   m_SceneLighting: 1
   lastFramingTime: 5344.570581976687
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_Target: {x: -1.5361749, y: 0, z: 0}
     speed: 2
@@ -1045,6 +1196,11 @@ MonoBehaviour:
     m_Value: {x: 0.29233626, y: 0.5680172, z: 0}
 >>>>>>> f77d0bffe20294d3bd050b4f40da5a07472b4d44
 >>>>>>> cb45986327c1fe7380b0d805aafa3e06326b67b6
+=======
+    m_Target: {x: -137.68039, y: -16.165125, z: 0}
+    speed: 2
+    m_Value: {x: -137.68039, y: -16.165125, z: 0}
+>>>>>>> JussiOksa
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -1072,6 +1228,7 @@ MonoBehaviour:
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 29.4558
     speed: 2
     m_Value: 29.4558
@@ -1086,6 +1243,11 @@ MonoBehaviour:
     m_Value: 11.414033
 >>>>>>> f77d0bffe20294d3bd050b4f40da5a07472b4d44
 >>>>>>> cb45986327c1fe7380b0d805aafa3e06326b67b6
+=======
+    m_Target: 59.67307
+    speed: 2
+    m_Value: 59.67307
+>>>>>>> JussiOksa
   m_Ortho:
     m_Target: 1
     speed: 2
