@@ -93,12 +93,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\DistanceText.cs" />
+    <Compile Include="Assets\Scripts\Endurance.cs" />
     <Compile Include="Assets\Scripts\GolfSlider.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\PlayerHunt.cs" />
     <Compile Include="Assets\Scripts\SweetSpotScript.cs" />
     <Compile Include="Assets\Scripts\TemporaryScripts\TempBearScriptByJussi.cs" />
     <Compile Include="Assets\Scripts\TemporaryScripts\TempWifeScriptByJussi.cs" />
+    <Compile Include="Assets\Scripts\TemporaryScripts\moveAway.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
+    <Compile Include="Assets\Scripts\TurnAround.cs" />
+    <Compile Include="Assets\Scripts\WorkPosition.cs" />
+    <Compile Include="Assets\Scripts\flagpolewinching.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
