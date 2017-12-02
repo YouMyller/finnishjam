@@ -94,7 +94,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\DistanceText.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\Endurance.cs" />
+=======
+<<<<<<< HEAD
+    <Compile Include="Assets\Scripts\Endurance.cs" />
+=======
+>>>>>>> fea2fa1b5a7469fffa34de55117c2da55703e650
+>>>>>>> master
     <Compile Include="Assets\Scripts\GolfSlider.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PlayerHunt.cs" />
@@ -104,7 +111,14 @@
     <Compile Include="Assets\Scripts\TemporaryScripts\moveAway.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
     <Compile Include="Assets\Scripts\TurnAround.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\WorkPosition.cs" />
+=======
+<<<<<<< HEAD
+    <Compile Include="Assets\Scripts\WorkPosition.cs" />
+=======
+>>>>>>> fea2fa1b5a7469fffa34de55117c2da55703e650
+>>>>>>> master
     <Compile Include="Assets\Scripts\flagpolewinching.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
