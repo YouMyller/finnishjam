@@ -32,12 +32,13 @@ public class FlagMovement : MonoBehaviour
                 {
                     transform.Translate(Vector2.up * Time.deltaTime * enduScript.flagPower, Space.World);
                 }
-            }
+            }            
         }
 
-        if (transform.position.y > 1.48)
+        if (transform.position.y > 1.48 && transform.position.y <= 7.30)
         {
             transform.Translate(Vector2.down * Time.deltaTime * enduScript.flagDrop, Space.World);
         }
+
     }
 }
