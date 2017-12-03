@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FlagMovement : MonoBehaviour
 {
@@ -47,7 +48,11 @@ public class FlagMovement : MonoBehaviour
                         //source.Play();
                     }*/
                 }
-            }            
+            }
+            else if (transform.position.y > 7.30)
+            {
+                SceneManager.LoadScene("YouWon");
+            }
         }
 
         if (transform.position.y > 1.48 && transform.position.y <= 7.30)
