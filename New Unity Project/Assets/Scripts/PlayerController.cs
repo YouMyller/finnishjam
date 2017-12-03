@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     public float speed;
     public float punchForce;
     public float distFromSweetSpot;
+    public float endurance;
     public bool standOnFlag;
     float timer;
     bool punchModeWife;
@@ -16,6 +17,7 @@ public class PlayerController : MonoBehaviour
     GameObject bear, wife, golfSlider;
     public GameObject golfBarSlider;
     public Animator anim;
+    Transform player;
     // Use this for initialization
     void Start()
     {
@@ -23,16 +25,22 @@ public class PlayerController : MonoBehaviour
         golfSlider = GameObject.Find("GolfSlider");
         bear = GameObject.FindGameObjectWithTag("Bear");
         wife = GameObject.FindGameObjectWithTag("Wife");
+        
         anim = GetComponent<Animator>();
+        endurance = GetComponent<Endurance>().endurance;
         rb.bodyType = RigidbodyType2D.Dynamic;
         golfBarSlider.SetActive(false);
         
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         Move(Input.GetAxisRaw("Horizontal"));
+        if (anim.GetBool("winching") == true)
+        {
+            transform.rotation = Quaternion.identity;
+        }
         if (punchModeWife == true)
         {
             rb.bodyType = RigidbodyType2D.Static;
@@ -73,7 +81,6 @@ public class PlayerController : MonoBehaviour
         else
         {
             rb.bodyType = RigidbodyType2D.Dynamic;
-            
         }
         
     }
@@ -91,13 +98,14 @@ public class PlayerController : MonoBehaviour
         {
             transform.localEulerAngles = new Vector3(0, 360, 0);
         }
-        Debug.Log(horizontalInput);
+        //Debug.Log(horizontalInput);
 
     }
     private void PunchForceAmount()
     {
         distFromSweetSpot = golfSlider.GetComponent<GolfSlider>().distFromSweetSpot;
-        punchForce = (punchForce / distFromSweetSpot) * 25;
+        endurance = GetComponent<Endurance>().endurance;
+        punchForce = punchForce / (distFromSweetSpot * 10) * endurance;
     }
     void OnCollisionEnter2D(Collision2D coll)
     {
