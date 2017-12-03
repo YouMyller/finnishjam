@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public float distFromSweetSpot;
     public float endurance;
     public bool standOnFlag;
+    public float calculatedShit;
     float timer;
     bool punchModeWife;
     bool punchModeBear;
@@ -25,12 +26,12 @@ public class PlayerController : MonoBehaviour
         golfSlider = GameObject.Find("GolfSlider");
         bear = GameObject.FindGameObjectWithTag("Bear");
         wife = GameObject.FindGameObjectWithTag("Wife");
-        
+
         anim = GetComponent<Animator>();
         endurance = GetComponent<Endurance>().endurance;
         rb.bodyType = RigidbodyType2D.Dynamic;
         golfBarSlider.SetActive(false);
-        
+
     }
 
     // Update is called once per frame
@@ -46,7 +47,7 @@ public class PlayerController : MonoBehaviour
             rb.bodyType = RigidbodyType2D.Static;
             golfBarSlider.SetActive(true);
             wife.GetComponent<TempWifeScriptByJussi>().speed = 0;
-            
+
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 Vector2 dir = new Vector2(-5, 2).normalized;
@@ -57,10 +58,10 @@ public class PlayerController : MonoBehaviour
                 punchForce = 10000;
                 golfBarSlider.SetActive(false);
                 punchModeWife = false;
-                
+
             }
         }
-        if  (punchModeBear == true)
+        if (punchModeBear == true)
         {
             rb.bodyType = RigidbodyType2D.Static;
             golfBarSlider.SetActive(true);
@@ -76,13 +77,13 @@ public class PlayerController : MonoBehaviour
                 golfBarSlider.SetActive(false);
                 punchModeBear = false;
             }
-            
+
         }
         else
         {
             rb.bodyType = RigidbodyType2D.Dynamic;
         }
-        
+
     }
     private void Move(float horizontalInput)
     {
@@ -105,7 +106,28 @@ public class PlayerController : MonoBehaviour
     {
         distFromSweetSpot = golfSlider.GetComponent<GolfSlider>().distFromSweetSpot;
         endurance = GetComponent<Endurance>().endurance;
-        punchForce = punchForce / (distFromSweetSpot * 10) * endurance;
+        calculatedShit = punchForce / (distFromSweetSpot * 10) * endurance;
+        if (calculatedShit >= 50000)
+        {
+            punchForce = 45000;
+        }
+        if (calculatedShit >= 7600 && calculatedShit < 50000)
+        {
+            punchForce = 30000;
+        }
+        if (calculatedShit >= 3000 && calculatedShit < 7600)
+        {
+            punchForce = 23000;
+        }
+        if (calculatedShit >= 2272 && calculatedShit < 300)
+        {
+            punchForce = 12000;
+        }
+        if (calculatedShit <= 2271)
+        {
+            punchForce = 5000;
+        }
+
     }
     void OnCollisionEnter2D(Collision2D coll)
     {
