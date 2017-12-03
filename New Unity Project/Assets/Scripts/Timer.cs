@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
@@ -28,6 +29,8 @@ public class Timer : MonoBehaviour
     {
         timeLeft = 0;
         //Add stuff here when we know what to do
-        countdownText.text = "It's ogre";
+        //countdownText.text = "It's ogre";
+
+        SceneManager.LoadScene("YouLost");
     }
 }
