@@ -110,6 +110,8 @@
     <Compile Include="Assets\Scripts\TurnAround.cs" />
     <Compile Include="Assets\Scripts\WorkPosition.cs" />
     <Compile Include="Assets\Scripts\flagpolewinching.cs" />
+    <Compile Include="Assets\Scripts\hitSounds.cs" />
+    <Compile Include="Assets\maamme_song.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

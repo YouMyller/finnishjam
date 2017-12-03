@@ -13,6 +13,9 @@ public class GolfSlider : MonoBehaviour
     Vector3 heading;
     bool rightSide;
 
+    public AudioClip hit;
+    public AudioClip critHit;
+
     void Start()
     {
         rightSide = false;
@@ -32,6 +35,15 @@ public class GolfSlider : MonoBehaviour
         }
         heading = slider.localPosition - sweetSpot.transform.localPosition;
         distFromSweetSpot = heading.magnitude;
+
+        /*if (distFromSweetSpot <= 3f && Input.GetKey(KeyCode.Space))
+        {
+            SoundManager.instance.RandomizeSfx(critHit);
+        }
+        if (distFromSweetSpot >= 3f && Input.GetKey(KeyCode.Space))
+        {
+            SoundManager.instance.RandomizeSfx(hit);
+        }*/
     }
     IEnumerator MoveRight()
     {

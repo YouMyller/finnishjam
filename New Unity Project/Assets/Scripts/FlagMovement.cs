@@ -7,9 +7,9 @@ public class FlagMovement : MonoBehaviour
 
     GameObject player;
 
-    //public AudioClip audioClip;
-
-    //public AudioSource source;
+    public AudioClip winchSound;
+    public AudioClip testSound;
+    public SoundManager soundManager;
 
 	// Use this for initialization
 	void Start ()
@@ -33,19 +33,15 @@ public class FlagMovement : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.A))
                 {
                     transform.Translate(Vector2.up * Time.deltaTime * enduScript.flagPower, Space.World);
-                    //SoundManager.PlaySound("Winching");
-                    /*if (!source.isPlaying)
+                    if (!soundManager.efxSource.isPlaying)
                     {
-                        source.Play();
-                    }*/
+                        SoundManager.instance.RandomizeSfx(winchSound);
+                    }
+                    
                 }
                 if (Input.GetKeyDown(KeyCode.D))
                 {
                     transform.Translate(Vector2.up * Time.deltaTime * enduScript.flagPower, Space.World);
-                    /*if (!source.isPlaying)
-                    {
-                        //source.Play();
-                    }*/
                 }
             }            
         }

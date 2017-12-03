@@ -5,6 +5,10 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
+
+    public AudioClip wifePunch;
+    public AudioClip bearPunch;
+
     public float speed;
     public float punchForce;
     public float distFromSweetSpot;
@@ -48,7 +52,8 @@ public class PlayerController : MonoBehaviour
             wife.GetComponent<TempWifeScriptByJussi>().speed = 0;
             
             if (Input.GetKeyDown(KeyCode.Space))
-            {
+            { 
+                SoundManager.instance.RandomizeSfx(wifePunch);
                 Vector2 dir = new Vector2(-5, 2).normalized;
                 PunchForceAmount();
                 wife.gameObject.GetComponent<Rigidbody2D>().AddForce(dir * punchForce);
@@ -57,9 +62,11 @@ public class PlayerController : MonoBehaviour
                 punchForce = 10000;
                 golfBarSlider.SetActive(false);
                 punchModeWife = false;
-                
+                //SoundManager.instance.RandomizeSfx(hit);
+
             }
         }
+
         if  (punchModeBear == true)
         {
             rb.bodyType = RigidbodyType2D.Static;
@@ -67,6 +74,7 @@ public class PlayerController : MonoBehaviour
             bear.GetComponent<TempBearScriptByJussi>().speed = 0;
             if (Input.GetKeyDown(KeyCode.Space))
             {
+                SoundManager.instance.RandomizeSfx(bearPunch);
                 Vector2 dir = new Vector2(5, 2).normalized;
                 PunchForceAmount();
                 bear.gameObject.GetComponent<Rigidbody2D>().AddForce(dir * punchForce);
