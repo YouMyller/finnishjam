@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     GameObject bear, wife, golfSlider;
     public GameObject golfBarSlider;
     public Animator anim;
+    Transform player;
     // Use this for initialization
     void Start()
     {
@@ -24,6 +25,7 @@ public class PlayerController : MonoBehaviour
         golfSlider = GameObject.Find("GolfSlider");
         bear = GameObject.FindGameObjectWithTag("Bear");
         wife = GameObject.FindGameObjectWithTag("Wife");
+        
         anim = GetComponent<Animator>();
         endurance = GetComponent<Endurance>().endurance;
         rb.bodyType = RigidbodyType2D.Dynamic;
@@ -32,9 +34,13 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         Move(Input.GetAxisRaw("Horizontal"));
+        if (anim.GetBool("winching") == true)
+        {
+            transform.rotation = Quaternion.identity;
+        }
         if (punchModeWife == true)
         {
             rb.bodyType = RigidbodyType2D.Static;

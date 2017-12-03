@@ -12,13 +12,15 @@ public class WorkPosition : MonoBehaviour {
 
     private bool timeToWork;
     private bool timeToSauna;
+    public Animator anim;
 
     //if sprite is ehhh then also hide the button
 
-	// Use this for initialization
-	void Start ()
+    // Use this for initialization
+    void Start ()
     {
         timeToWork = false;
+        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -27,6 +29,7 @@ public class WorkPosition : MonoBehaviour {
         {
             if (Input.GetKeyUp(KeyCode.UpArrow))
             {
+                anim.SetBool("winching", true);
                 buttonTutorial.SetActive(false);
                 buttonTutorial.GetComponent<SpriteRenderer>().enabled = false;
                 GetComponent<SpriteRenderer>().sprite = workingSprite;
@@ -40,6 +43,7 @@ public class WorkPosition : MonoBehaviour {
             }
             if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.LeftArrow))
             {
+                anim.SetBool("winching", false);
                 GetComponent<SpriteRenderer>().sprite = walkingSprite;
                 buttonTutorial.SetActive(true);
                 buttonTutorial.GetComponent<SpriteRenderer>().enabled = true;

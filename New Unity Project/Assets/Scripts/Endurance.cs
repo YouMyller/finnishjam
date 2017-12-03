@@ -3,13 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Endurance : MonoBehaviour {
+public class Endurance : MonoBehaviour
+{
 
     public float endurance;
     public float maxEndurance;
-    public bool sauna, saunaExtra, flag, flagExtra, enemy, snap;
+    public bool sauna, saunaExtra, flag, enemy, snap;
     public GameObject buttonTutorial;
     public Sprite walkingSprite;
+    public Transform snapPosition;
 
     [SerializeField]
     int flagNumber;
@@ -30,13 +32,12 @@ public class Endurance : MonoBehaviour {
 
     GameObject flagPole;
 
-	// Use this for initialization
-	void Start ()
+    // Use this for initialization
+    void Start()
     {
         sauna = false;
         flag = false;
-        enemy = true;
-        flagExtra = false;
+        enemy = false;
         saunaExtra = false;
         endurance = 100;
         maxEndurance = 20;
@@ -45,14 +46,13 @@ public class Endurance : MonoBehaviour {
         flagPower = 1;
 
         flagNumberTimer = true;
-        //flagPole = GameObject.FindGameObjectWithTag("FlagPole");
-
+         
         //source.clip = audioClip;
         //source.clip = audioClipTwo;
     }
 
-	// Update is called once per frame
-	void Update ()
+    // Update is called once per frame
+    void Update()
     {
 
         if (sauna == true && GetComponent<SpriteRenderer>().enabled == false)
@@ -63,11 +63,7 @@ public class Endurance : MonoBehaviour {
                 if (endurance <= 95)
                 {
                     endurance += 1f;
-                    SoundManager.instance.RandomizeSfx(sauna1, sauna2, sauna3)
-                    //if (!source.isPlaying)
-                    //{
-                    //    source.Play();
-                    //}
+                    SoundManager.instance.RandomizeSfx(sauna1, sauna2, sauna3);
                 }
             }
 
@@ -76,48 +72,46 @@ public class Endurance : MonoBehaviour {
                 if (endurance <= 95)
                 {
                     endurance += 1f;
-                    //if (!sourceTwo.isPlaying)
-                    //{
-                    //    sourceTwo.Play();
-                    //}
                 }
             }
         }
 
         FlagPoleTimer(false);
 
-        /*if (flag == true)
-        {
-            if (Input.GetKeyUp(KeyCode.UpArrow))
-            {
-                Debug.Log("FlagExtra");
-                flagExtra = true;
-            }
-        }*/
 
         if (flag == true)      //&& GetComponent<SpriteRenderer>().sprite != walkingSprite
         {
-            //Debug.Log("Not quite");
+            
             if (Input.GetKeyDown(KeyCode.A))
-            {
-                //Debug.Log("Further");
-                if (endurance >= 20)
                 {
+                    if (endurance >= 20)
+                    {
+                    
                     endurance -= 1f;
-                    flagNumber += 10;
+                        flagNumber += 10;
+                        transform.position = snapPosition.position;
                 }
-            }
+                }
 
-            if (Input.GetKeyDown(KeyCode.D))
-            {
-                //Debug.Log("Further");
-                if (endurance >= 5)
+                if (Input.GetKeyDown(KeyCode.D))
                 {
-                    endurance -= 1f;
-                    flagNumber += 10;
+                    if (endurance >= 5)
+                    {
+                        endurance -= 1f;
+                        flagNumber += 10;
+                        transform.position = snapPosition.position;
+                    }
                 }
+            if (Input.GetKeyDown(KeyCode.RightArrow))
+            {
+                flag = false;
+            }
+            if (Input.GetKeyDown(KeyCode.LeftArrow))
+            {
+                flag = false;
             }
         }
+
         if (enemy == true)
         {
             if (Input.GetKeyUp("space"))
@@ -132,32 +126,22 @@ public class Endurance : MonoBehaviour {
         if (endurance > 100)
         {
             flagPower = 20;
-            //hit power = 30
-            //flag speed = 30;
         }
         if (endurance < 100)
         {
             flagPower = 12;
-            //hit power = 20
-            //flag speed = 20;
         }
         if (endurance < 50)
         {
             flagPower = 8;
-            //hit power = 10
-            //flag speed = 10;
         }
         if (endurance < 25)
         {
             flagPower = 5;
-            //hit power = 5
-            //flag speed = 5;
         }
         if (endurance <= 0)
         {
             flagPower = 0;
-            //hit power = 0
-            //flag speed = 0;
         }
     }
 
@@ -171,7 +155,7 @@ public class Endurance : MonoBehaviour {
             {
                 if (enemyTouches == true)
                 {
-                    flagDrop = 10;
+                    flagDrop = 5;
                     flagNumber -= 5;
                     flagNumberTimerAmount -= 1.0f;
                 }
@@ -192,6 +176,11 @@ public class Endurance : MonoBehaviour {
 
     private void OnTriggerStay2D(Collider2D collision)
     {
+        if (collision.gameObject.tag == "SnapObject")
+        {
+            flag = true;
+        }
+
         if (collision.gameObject.tag == "Sauna")
         {
             sauna = true;
@@ -201,15 +190,7 @@ public class Endurance : MonoBehaviour {
             sauna = false;
         }
 
-        if (collision.gameObject.tag == "FlagPole")
-        {
-            flag = true;
-        }
-        else
-        {
-            flag = false;
-            flagExtra = false;
-        }
+
 
         if (collision.gameObject.tag == "KarhuTrigger" || collision.gameObject.tag == "VaimoTrigger")
         {
@@ -221,12 +202,16 @@ public class Endurance : MonoBehaviour {
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        
+    }
+
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "FlagPole")
         {
             flag = false;
-            //flagExtra = false;
         }
         if (collision.gameObject.tag == "Sauna")
         {
