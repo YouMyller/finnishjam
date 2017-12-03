@@ -53,8 +53,11 @@ public class Endurance : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-
+    {   
+        if (endurance <= 0)
+        {
+            endurance = 0;
+        }
         if (sauna == true && GetComponent<SpriteRenderer>().enabled == false)
         {
 
@@ -116,6 +119,7 @@ public class Endurance : MonoBehaviour
         {
             if (Input.GetKeyUp("space"))
             {
+                enemy = false;
                 endurance -= 20;
             }
         }
@@ -200,11 +204,6 @@ public class Endurance : MonoBehaviour
         {
             enemy = false;
         }
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        
     }
 
     private void OnTriggerExit2D(Collider2D collision)

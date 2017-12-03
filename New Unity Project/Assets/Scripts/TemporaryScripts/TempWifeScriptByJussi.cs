@@ -8,9 +8,13 @@ public class TempWifeScriptByJussi : MonoBehaviour
     public float defaultSpeed;
     public Animator anim;
     Rigidbody2D rb;
+    
+    GameObject player;
     // Use this for initialization
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
+
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
@@ -27,6 +31,14 @@ public class TempWifeScriptByJussi : MonoBehaviour
         else
         {
             anim.SetBool("isGrounded", true);
+        }
+    }
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "FlagPole")
+        {
+            player.GetComponent<Endurance>().FlagPoleTimer(true);
+            Debug.Log("Jou kosketti");
         }
     }
 }

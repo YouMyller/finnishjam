@@ -554,6 +554,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24b8d9d1505bde24f9a2d80ea28508b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &351738187 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1143609019592216, guid: 99ed4e7aa158f2548be72e8204911f09,
+    type: 2}
+  m_PrefabInternal: {fileID: 809143374}
+--- !u!114 &351738191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 351738187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 411426565906a034ca90f746f1be5bdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &373388313
 GameObject:
   m_ObjectHideFlags: 0
@@ -1052,7 +1068,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4069970440156808, guid: 99ed4e7aa158f2548be72e8204911f09, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -13.14
+      value: -13.1
       objectReference: {fileID: 0}
     - target: {fileID: 4069970440156808, guid: 99ed4e7aa158f2548be72e8204911f09, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1095,12 +1111,33 @@ Prefab:
     - target: {fileID: 61823649588914880, guid: 99ed4e7aa158f2548be72e8204911f09,
         type: 2}
       propertyPath: m_Offset.x
-      value: 0.025219068
+      value: 0.30357218
       objectReference: {fileID: 0}
     - target: {fileID: 61823649588914880, guid: 99ed4e7aa158f2548be72e8204911f09,
         type: 2}
       propertyPath: m_Size.x
-      value: 0.94956183
+      value: 1.506268
+      objectReference: {fileID: 0}
+    - target: {fileID: 4479873135025432, guid: 99ed4e7aa158f2548be72e8204911f09, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1.0866082
+      objectReference: {fileID: 0}
+    - target: {fileID: 1143609019592216, guid: 99ed4e7aa158f2548be72e8204911f09, type: 2}
+      propertyPath: m_Name
+      value: SaunaTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 50540178701067006, guid: 99ed4e7aa158f2548be72e8204911f09,
+        type: 2}
+      propertyPath: m_Mass
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1143609019592216, guid: 99ed4e7aa158f2548be72e8204911f09, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1392071981733888, guid: 99ed4e7aa158f2548be72e8204911f09, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 99ed4e7aa158f2548be72e8204911f09, type: 2}
@@ -1374,7 +1411,6 @@ MonoBehaviour:
   sauna2: {fileID: 0}
   sauna3: {fileID: 0}
   currentEndurance: {fileID: 629996921}
-  anim: {fileID: 0}
 --- !u!4 &1033034809 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4069970440156808, guid: 99ed4e7aa158f2548be72e8204911f09,
@@ -1486,7 +1522,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1098217151}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.05, y: 0.56, z: 0}
+  m_LocalPosition: {x: 0.02, y: 0.795, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 953340256}
@@ -1612,11 +1648,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4905965941731384, guid: 1f624c6210ebeb6479ba5bb421261ffc, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 6.22
+      value: -3.63
       objectReference: {fileID: 0}
     - target: {fileID: 4905965941731384, guid: 1f624c6210ebeb6479ba5bb421261ffc, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.83
+      value: 0.76
       objectReference: {fileID: 0}
     - target: {fileID: 4905965941731384, guid: 1f624c6210ebeb6479ba5bb421261ffc, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1679,6 +1715,26 @@ Prefab:
         type: 2}
       propertyPath: speed
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 61393871291937182, guid: 1f624c6210ebeb6479ba5bb421261ffc,
+        type: 2}
+      propertyPath: m_Offset.x
+      value: -0.0028328896
+      objectReference: {fileID: 0}
+    - target: {fileID: 61393871291937182, guid: 1f624c6210ebeb6479ba5bb421261ffc,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1.4026604
+      objectReference: {fileID: 0}
+    - target: {fileID: 61393871291937182, guid: 1f624c6210ebeb6479ba5bb421261ffc,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: -0.016937494
+      objectReference: {fileID: 0}
+    - target: {fileID: 61393871291937182, guid: 1f624c6210ebeb6479ba5bb421261ffc,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1.5404336
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f624c6210ebeb6479ba5bb421261ffc, type: 2}
@@ -1868,7 +1924,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4957355559289468, guid: c070b36846289fb429a663c8d9f65393, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 15.36
+      value: 16.82
       objectReference: {fileID: 0}
     - target: {fileID: 4957355559289468, guid: c070b36846289fb429a663c8d9f65393, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1934,6 +1990,11 @@ Prefab:
     - target: {fileID: 1621665134080752, guid: c070b36846289fb429a663c8d9f65393, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 50553736085759036, guid: c070b36846289fb429a663c8d9f65393,
+        type: 2}
+      propertyPath: m_Mass
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c070b36846289fb429a663c8d9f65393, type: 2}
@@ -2050,7 +2111,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.112663046, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2061,7 +2122,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.2253261, y: 1}
   m_EdgeRadius: 0
 --- !u!212 &1544489042
 SpriteRenderer:
