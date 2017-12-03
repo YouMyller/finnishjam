@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/new_sound.unity
+=======
+- path: Assets/MainMenu.unity
+>>>>>>> JussiOksa
   isLoaded: 1
   isActive: 1

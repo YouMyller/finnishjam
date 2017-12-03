@@ -53,8 +53,11 @@ public class Endurance : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-
+    {   
+        if (endurance <= 0)
+        {
+            endurance = 0;
+        }
         if (sauna == true && GetComponent<SpriteRenderer>().enabled == false)
         {
 
@@ -116,7 +119,9 @@ public class Endurance : MonoBehaviour
         {
             if (Input.GetKeyUp("space"))
             {
+                
                 endurance -= 20;
+                enemy = false;
             }
         }
 
@@ -125,19 +130,19 @@ public class Endurance : MonoBehaviour
 
         if (endurance > 100)
         {
-            flagPower = 20;
+            flagPower = 15;
         }
         if (endurance < 100)
         {
-            flagPower = 12;
+            flagPower = 6.5f;
         }
         if (endurance < 50)
         {
-            flagPower = 8;
+            flagPower = 5;
         }
         if (endurance < 25)
         {
-            flagPower = 5;
+            flagPower = 2.5f;
         }
         if (endurance <= 0)
         {
@@ -155,13 +160,13 @@ public class Endurance : MonoBehaviour
             {
                 if (enemyTouches == true)
                 {
-                    flagDrop = 5;
+                    flagDrop = 2;
                     flagNumber -= 5;
                     flagNumberTimerAmount -= 1.0f;
                 }
                 else
                 {
-                    flagDrop = 1;
+                    flagDrop = 0.25f;
                     flagNumber -= 1;
                     flagNumberTimerAmount -= 1.0f;
                 }
@@ -200,11 +205,6 @@ public class Endurance : MonoBehaviour
         {
             enemy = false;
         }
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        
     }
 
     private void OnTriggerExit2D(Collider2D collision)
