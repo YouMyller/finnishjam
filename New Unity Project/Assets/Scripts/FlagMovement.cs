@@ -7,10 +7,16 @@ public class FlagMovement : MonoBehaviour
 
     GameObject player;
 
+    //public AudioClip audioClip;
+
+    //public AudioSource source;
+
 	// Use this for initialization
 	void Start ()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+
+        //source.clip = audioClip;
     }
 	
 	// Update is called once per frame
@@ -27,10 +33,19 @@ public class FlagMovement : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.A))
                 {
                     transform.Translate(Vector2.up * Time.deltaTime * enduScript.flagPower, Space.World);
+                    //SoundManager.PlaySound("Winching");
+                    /*if (!source.isPlaying)
+                    {
+                        source.Play();
+                    }*/
                 }
                 if (Input.GetKeyDown(KeyCode.D))
                 {
                     transform.Translate(Vector2.up * Time.deltaTime * enduScript.flagPower, Space.World);
+                    /*if (!source.isPlaying)
+                    {
+                        //source.Play();
+                    }*/
                 }
             }            
         }

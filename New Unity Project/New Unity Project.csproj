@@ -100,7 +100,11 @@
     <Compile Include="Assets\Scripts\GolfSlider.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PlayerHunt.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\StopScript.cs" />
+=======
+    <Compile Include="Assets\Scripts\SoundManager.cs" />
+>>>>>>> master
     <Compile Include="Assets\Scripts\SweetSpotScript.cs" />
     <Compile Include="Assets\Scripts\TemporaryScripts\TempBearScriptByJussi.cs" />
     <Compile Include="Assets\Scripts\TemporaryScripts\TempWifeScriptByJussi.cs" />

@@ -19,6 +19,13 @@ public class Endurance : MonoBehaviour {
     public float flagDrop;
     public float flagPower;
 
+    public AudioClip audioClip;
+    public AudioClip audioClipTwo;
+
+    public AudioClip sauna1;
+    public AudioClip sauna2;
+    public AudioClip sauna3;
+
     public Image currentEndurance;
 
     GameObject flagPole;
@@ -39,7 +46,10 @@ public class Endurance : MonoBehaviour {
 
         flagNumberTimer = true;
         //flagPole = GameObject.FindGameObjectWithTag("FlagPole");
-	}
+
+        //source.clip = audioClip;
+        //source.clip = audioClipTwo;
+    }
 
 	// Update is called once per frame
 	void Update ()
@@ -47,11 +57,17 @@ public class Endurance : MonoBehaviour {
 
         if (sauna == true && GetComponent<SpriteRenderer>().enabled == false)
         {
+
             if (Input.GetKeyDown(KeyCode.A))
             {
                 if (endurance <= 95)
                 {
                     endurance += 1f;
+                    SoundManager.instance.RandomizeSfx(sauna1, sauna2, sauna3)
+                    //if (!source.isPlaying)
+                    //{
+                    //    source.Play();
+                    //}
                 }
             }
 
@@ -60,6 +76,10 @@ public class Endurance : MonoBehaviour {
                 if (endurance <= 95)
                 {
                     endurance += 1f;
+                    //if (!sourceTwo.isPlaying)
+                    //{
+                    //    sourceTwo.Play();
+                    //}
                 }
             }
         }
